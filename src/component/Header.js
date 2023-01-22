@@ -9,12 +9,15 @@ const Title = () => (
 );
 function Header() {
     return (
-        <div className='Header'>
-            <Title/>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            
+        <div className='header'>
+            <Title />
+            <div className='nav-items'>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
         </div>
     )
 }
